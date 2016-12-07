@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>卜帅 - 前端工程师 & 后端开发</title>
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Favicons
+    ================================================== -->
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
+
+<!-- Slider
+    ================================================== -->
+<link href="css/owl.carousel.css" rel="stylesheet" media="screen">
+<link href="css/owl.theme.css" rel="stylesheet" media="screen">
+
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css"  href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/prettyPhoto.css">
+
+
+
+<style type="text/css">
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url('fonts/fonts/H2DMvhDLycM56KNuAtbJYA.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url('fonts/fonts/MTP_ySUJH_bn48VBG8sNSugdm0LZdjqr5-oayXSOefg.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url('fonts/fonts/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url('fonts/fonts/cJZKeOuBrn4kERxqtaUH3VtXRa8TVwTICgirnJhmVJw.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+</style>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+<script>
+	var _hmt = _hmt || [];
+	(function() {
+		var hm = document.createElement("script");
+		hm.src = "//hm.baidu.com/hm.js?a11dcc301eec0c129a4f55052d83d7c0";
+		var s = document.getElementsByTagName("script")[0];
+		s.parentNode.insertBefore(hm, s);
+	})();
+</script>
+
+</head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+<!-- Header -->
+<header class="intro">
+  <div class="intro-body">
+    <div class="container">
+      <div class="row">
+        <div class="intro-text">
+          <h1>Hello, I'm Bu Shuai</h1>
+          <p style="color:#000">前端 & 后端开发</p>
+          <a href="#about" class="btn btn-default btn-lg page-scroll" style="border-color: #000;color:#000">关于我</a>
+          <a href="#portfolio" class="btn btn-default btn-lg page-scroll" style="border-color: #000;color:#000">我的作品</a></div>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- Navigation -->
+<div id="nav">
+  <nav class="navbar navbar-custom">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
+        <a class="navbar-brand page-scroll" href="#page-top">Bu Shuai</a> </div>
+      
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+        <ul class="nav navbar-nav">
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden"> <a href="#page-top"></a> </li>
+          <li> <a class="page-scroll" href="#about">关于</a> </li>
+          <li> <a class="page-scroll" href="#services">服务</a> </li>
+          <li> <a class="page-scroll" href="#portfolio">我的作品</a> </li>
+          <li> <a class="page-scroll" href="#skills">技能</a> </li>
+          <li> <a class="page-scroll" href="#resume">简历</a> </li>
+          <li> <a class="page-scroll" href="#testimonials">评价</a> </li>
+          <li> <a class="page-scroll" href="#contact">联系</a> </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+<!-- About Section -->
+<div id="about">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>About me</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center"><img src="img/about.jpg" class="img-responsive"></div>
+      <div class="col-md-8 col-md-offset-2">
+        <div class="about-text">
+          <p>喜欢源源不断的摄入新知识,饱和的工作状态,近几年来,一直在第一线带领小型团队从事研发工作;
+          	  从事过大型二次项目开发,对于二次项目开发熟悉比较有经验同时对于全新项目也可以独立解决 </p>
+          <p>在公司曾担任半年部门经理，目前能熟练运用面向对象编程思想进行编写代码，并对计算机硬件有一定的了解,工作可经常出差。</p>
+          	在他人看来这个比较沉闷的行业,我更喜欢运动、旅行、聚会、线下互动、公司活动,集体活动都会踊跃组织并参与</p>
+          	<p>项目管理、互联网营销、对于自己有兴趣都来者不拒^V^;
+          			在这个浮躁的时代更需要静下来沉淀,厚积薄发,慢慢锤炼</p>
+          <p class="text-center"><a class="btn btn-primary" href="doc/buke.doc">
+          	<i class="fa fa-download">
+          	</i> 下载简历</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Services Section -->
+<div id="services" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>我能做什么?</h2>
+      <hr>
+    </div>
+    <div class="space"></div>
+    <div class="row">
+      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-laptop"></i>
+        <h4>网页设计</h4>
+        <p>掌握CSS3、H5、BootStrap、布局设计,常用JQuery UI、EasyUI等UI组件</p>
+        <p>脚本方面JavaScript、JQuery、AngularJS、SockJS及常用组件.</p>
+      </div>
+      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-code"></i>
+        <h4>开发方面</h4>
+        <p>第一开发语言Java,熟悉框架有SSH1/2、SpringMVC/SpringBoot、Mybatis,Netty,WebSocket,WebService,Maven及各类报表技术
+        		各大主流关系型数据库及非关系型数据库MongoDB,Redis等,服务器部署及搭建,ApacheServer集群,LB,HA等</p>
+        	曾在创业公司身揽多职,更饱和de工作状态才能让Dev各方面成长^V^
+      </div>
+      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-rocket"></i>
+        <h4>沟通</h4>
+        <p>曾任职于<a href="http://www.tanzhouedu.com/">湖南潭州学院</a>Java讲师,现在已成为腾讯课堂线上教育No.1地位,在线上教学中保持与学院良好沟通及线下各方面积极交流,使其Java部门在学院产出长期处于Top1位置.</p>
+      </div>
+      <div class="col-md-3 col-sm-6 service"> <i class="fa fa-bullhorn"></i>
+        <h4>销售</h4>
+        <p>曾任企业管理信息化技术及咨询人员,就职于<a href="http://www.cnrdm.com/">青铜器软件</a>,与全国知名企业(佛山美的家电事业部,湖南中联重科,武汉烽火通信等)进行紧密开发及业务交流,推动后期商务部洽谈</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Portfolio Section -->
+<div id="portfolio">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>我的作品</h2>
+      <hr>
+      <div class="clearfix"></div>
+      <p>因本人离职后可能存在维护或改版问题,部分作品可能由于时间问题无法访问,敬请谅解.</p>
+    </div>
+    <div class="categories">
+      <ul class="cat">
+        <li>
+          <ol class="type">
+            <li><a href="#" data-filter="*" class="active">全部</a></li>
+            <li><a href="#" data-filter=".web">网站设计</a></li>
+            <li><a href="#" data-filter=".app">App/后端开发</a></li>
+            <li><a href="#" data-filter=".branding">销售</a></li>
+          </ol>
+        </li>
+      </ul>
+      <div class="clearfix"></div>
+    </div>
+    <div class="row">
+      <div class="portfolio-items">
+        <div class="col-sm-6 col-md-3 col-lg-3 web">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/01.jpg" title="WCL企业门户网站作为企业对外直接入口显得尤为重要;(http://wcl.51app.cn)" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>维创乐-门户网站</h4>
+                <small>门户前端开发</small>
+                <div class="clearfix"></div>
+                <i class="fa fa-search"></i> </div>
+              <img src="img/portfolio/01.jpg" class="img-responsive" alt="维创乐科技有限公司-门户网站"> </a> </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-6 col-md-3 col-lg-3 app">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/02.jpg" title="APP后台管理系统,来方便编辑人员管理操作;(http://wcl.51app.cn)" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>维创乐-铃声APP后台管理系统</h4>
+                <small>APP后端开发</small>
+                <div class="clearfix"></div>
+                <i class="fa fa-search"></i> </div>
+              <img src="img/portfolio/02.jpg" class="img-responsive" alt="维创乐-铃声APP后台管理系统"> </a> </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-3 col-lg-3 app">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/03.jpg" title="市场手机端壁纸铃声APP参差不齐,WCL Team要打造一个生态圈,融合应用市场及一系列APP;(https://itunes.apple.com/us/app/id990918949)" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>铃声APP-后台接口开发</h4>
+                <small>APP后端开发</small>
+                <div class="clearfix"></div>
+                <i class="fa fa-search"></i> </div>
+              <img src="img/portfolio/03.jpg" class="img-responsive" alt="铃声APP-后台接口开发"> </a> </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-6 col-md-3 col-lg-3 app">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/04.jpg" title="专注研发管理平台,提高研发生产效率、降低成本、缩短开发周期;(http://www.cnrdm.com:2000/)" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>青铜器RDM研发管理系统</h4>
+                <small>RDM后端开发</small>
+                <div class="clearfix"></div>
+                <i class="fa fa-search"></i> </div>
+              <img src="img/portfolio/04.jpg" class="img-responsive" alt="青铜器RDM研发管理系统"> </a> </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-6 col-md-3 col-lg-3 web">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/05.jpg" title="作为以后足彩平台的第一期版本,依靠经验丰富的彩票专家进行预测,向大平台靠齐" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>足彩数据网</h4>
+                <small>前端开发</small>
+                <div class="clearfix"></div>
+                <i class="fa fa-search"></i> </div>
+              <img src="img/portfolio/05.jpg" class="img-responsive" alt="赢胜数据网"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 web app">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/06.jpg" title="专购公司门户网站页面开发;(http://www.zngoo.com/)" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>专购科技门户</h4>
+                <small>门户前端开发</small>
+                <div class="clearfix"></div>
+                <i class="fa fa-search"></i> </div>
+              <img src="img/portfolio/06.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 app">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/07.jpg" title="虽然电商硝烟四起,但对于本土及垂直化一直扩展不深,定制化商务平台无疑是不可多得的选择" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>专购商城</h4>
+                <small>APP商城后端开发</small>
+                <div class="clearfix"></div>
+                <i class="fa fa-search"></i> </div>
+              <img src="img/portfolio/07.jpg" class="img-responsive" alt="专购商城"> </a> </div>
+          </div>
+        </div>
+        
+        <div class="col-sm-6 col-md-3 col-lg-3 web app">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/08.jpg" title="负责时时彩及六合APP后台接口编码工作;(https://itunes.apple.com/cn/app/liu-he-cai-tong-ji-xiang-gang/id1029352830?l=en&mt=8)" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>彩票工具类APP开发</h4>
+                <small>APP后端开发</small>
+                <div class="clearfix"></div>
+                <i class="fa fa-search"></i> </div>
+              <img src="img/portfolio/08.jpg" class="img-responsive" alt="彩票工具类APP开发"> </a> </div>
+          </div>
+        </div>
+        
+		
+        <div class="col-sm-6 col-md-3 col-lg-3 branding web">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/09.jpg" title="在潭州学院从事Java讲师一职,潭州至今已经是腾讯课堂TOP1;(http://www.tanzhoujiaoyu.com/)" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>线上IT教育课堂讲师</h4>
+                <small>课程销售及技术培训</small>
+                <div class="clearfix"></div>
+                <i class="fa fa-search"></i> </div>
+              <img src="img/portfolio/09.jpg" class="img-responsive" alt="线上IT教育课堂讲师"> </a> </div>
+          </div>
+        </div>
+        
+        
+        <div class="col-sm-6 col-md-3 col-lg-3 web app">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="img/portfolio/10.jpg" 
+            title="负责就医宝与His端编码工作;APP地址(https://itunes.apple.com/cn/app/jiu-yi-bao-san-jia-yi-yuan/id930339185?mt=8)" rel="prettyPhoto">
+              <div class="hover-text">
+                <h4>移动医疗-就医宝APP开发</h4>
+                <small>APP后端开发</small>
+                <div class="clearfix"></div>
+                <i class="fa fa-search"></i> </div>
+              <img src="img/portfolio/10.jpg" class="img-responsive" alt="移动医疗APP-就医宝"> </a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Skills Section -->
+<div id="skills" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>我的技能</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="60"> <span class="percent">40</span> </span>
+        <h4>前端开发</h4>
+      </div>
+
+      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">80</span> </span>
+        <h4>Framework</h4>
+      </div>
+
+      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="60"> <span class="percent">80</span> </span>
+        <h4>集群/分布式</h4>
+      </div>
+
+      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="70"> <span class="percent">70	</span> </span>
+        <h4>Cache</h4>
+      </div>
+
+      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="80"> <span class="percent">70</span> </span>
+        <h4>Tools</h4>
+      </div>
+
+      <div class="col-md-4 col-sm-6 skill"> <span class="chart" data-percent="70"> <span class="percent">50</span> </span>
+        <h4>DataBase</h4>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- Resume Section -->
+<div id="resume" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>工作经验</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <ul class="timeline">
+          <li>
+            <div class="timeline-image">
+              <h4>2012/2 <br>
+                - <br>
+                2012/06 </h4>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>长沙潭州学院科技有限公司[4个月]</h4>
+                <h4 class="subheading">Java讲师</h4>
+              </div>
+              <div class="timeline-body">
+                <p>在这个项目期间,参与前后台部分功能的编码以及外部接口的调用开发，同时参与了数据库的设计,与其他模块的组合对接,
+                		在潭州学院从事在线教育的门户网站开发后，个人能力受到部门经理重视，参与Java讲师一职,迄今为止，
+                		潭州学院已是中国最大线上教育平台  </p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <h4>2013/2 <br>
+                - <br>
+                2014/10 </h4>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>青铜器RDM软件系统有限公司</h4>
+                <h4 class="subheading">Java开发工程师/部门经理</h4>
+              </div>
+              <div class="timeline-body">
+                <p>RDM研发管理系统上的新版本发布、对于广东美的、三一重工、武汉烽火科技大企业管理软件进行实地开发，
+                		二次项目模块定制开发。后期从事技术支持部门经理工作，对售后技术团队管理及研发产品进度协同</p>
+              </div>
+            </div>
+          </li>
+          
+          <li>
+            <div class="timeline-image">
+              <h4>2012/06 <br>
+                - <br>
+                	2014/3 </h4>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>青铜器RDM软件系统有限公司 [1年9个月]</h4>
+                <h4 class="subheading">类全栈工程师</h4>
+              </div>
+              <div class="timeline-body">
+                <p>RDM研发管理系统上的新版本发布、对于广东美的、三一重工、武汉烽火科技大企业管理软件进行实地开发，
+                		二次项目模块定制开发。后期从事技术支持部门经理工作，对售后技术团队管理及研发产品进度协同，
+                		在驻外期间对驻地公司进行技术协助及开发工作
+ 				</p>
+              </div>
+            </div>
+          </li>
+          
+          
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <h4>2014/3 <br>
+                - <br>
+                	至今
+              </h4>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>深圳华康全景移动医疗有限公司 [2年9个月]</h4>
+                <h4 class="subheading">Java高级开发工程师</h4>
+              </div>
+              <div class="timeline-body">
+                <p>整个就医宝对接服务过程揽括-App(IOS,Android)-华康平台中心系统-号源池子系统-调度子系统(支付子系统,轮询服务系统,
+                		日志系统,数据库服务)-平台2医院中间件服务-医院前置机服务,使用Dubbo分布式框架,MongoDB日志记录,redis排班缓存,Elasticsearch
+                	实时缓存,本人主要负责前置机服务and中间件服务,使用ehcache,springmvc/spring/mybatis进行基础架构,quertz定时上传数据,
+                webservice对外提供服务,restful+json调用中间件,soapui接口测试,druid数据监控,sqlite日志记录,全程参
+                	与前置机服务及hospital中间件服务的版本开发工作，PM配合进行医院接口开发-联调-上线-地推推广售后跟踪</p>
+              </div>
+            </div>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  
+  <div class="container">
+    <div class="section-title center">
+      <h2>教育经历</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <ul class="timeline">
+          
+          <!-- Education Section-->
+          <li>
+            <div class="timeline-image">
+              <h4>2008/9 <br>
+                - <br>
+                2012/6 </h4>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>中南林业科技大学</h4>
+                <h4 class="subheading">人力资源管理学位</h4>
+              </div>
+              <div class="timeline-body">
+                <p>在校担任助教老师及辅导员助理,积极参与各种校园活动</p>
+               	大学于我,就像是家和社会的一个过渡,在这里我自由自在享受这些美好的一切.
+              </div>
+            </div>
+          </li>
+          
+          
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+            	<!-- 大三就开始培训了 -->
+              <h4>2012/2 <br>
+                - <br>
+                2013/1 </h4>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>长沙北邮3G培训学校</h4>
+                <h4 class="subheading">计算机等级证书</h4>
+              </div>
+              <div class="timeline-body">
+                <p>新的环境新的知识新的朋友,也就开始了新的征程</p>
+                The code is magical world,一边兼职体验生活<br />
+               	一遍学习编程提升自己&nbsp;&nbsp;this is my life.
+              </div>
+            </div>
+          </li>
+          
+          
+          <li>
+            <div class="timeline-image">
+              <h4>2016/4 <br>
+                - <br>
+                	至今
+              </h4>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>中南林业科技大学(在学硕士研究生)</h4>
+                <h4 class="subheading">计算机基础专业</h4>
+              </div>
+              <div class="timeline-body">
+                <p>4月份刚参加完硕士研究生入学考试.走向进阶之路</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Achievements Section -->
+<div id="achievements" class="section dark-bg">
+  <div class="container">
+    <div class="section-title center text-center">
+      <h2>统计数据</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-3 col-sm-3">
+        <div class="achievement-box"> <i class="fa fa-smile-o"></i> <span class="count">120</span>
+          <h4>同事满意度</h4>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-3">
+        <div class="achievement-box"> <i class="fa fa-code"></i> <span class="count">28,883.4</span>
+          <h4>工作小时</h4>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-3">
+        <div class="achievement-box"> <i class="fa fa-check-square-o"></i> <span class="count">20</span>
+          <h4>项目完成</h4>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-3">
+        <div class="achievement-box"> <i class="fa fa-trophy"></i> <span class="count">10</span>
+          <h4>曾获奖项</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Testimonials Section -->
+<div id="testimonials" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>评价</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+        <div id="testimonial" class="owl-carousel owl-theme">
+          <div class="item"> <img class="img-circle" src="img/clients/01.jpg" alt="StarMoon"/>
+            <p>Buke老师在潭州学院期间一直在提升教师质量及教学方式,将我的营销理念充分应用到线上教育中,一个值得肯定的年轻人.</p>
+            <p><strong>arry</strong>, CEO, 潭州学院.</p>
+          </div>
+          <div class="item"> <img class="img-circle" src="img/clients/02.jpg" alt="QTQ"/>
+            <p>Buke在青铜器工作一直尽心尽力,在客户开发现场实地开发,与企业顾问讨论需求,与公司同事相处融洽,这是作为一个IT人很少有的.</p>
+            <p><strong>Jenny DOE</strong>, PM, 青铜器.</p>
+          </div>
+          <div class="item"> <img class="img-circle" src="img/clients/03.jpg" alt="WCL"/>
+            <p>率性、直接、沉着,躁动的互联网时代身处浮躁的IT行业应当和你一样保持沉着的心.</p>
+            <p><strong>appri</strong>, HR, 专购科技.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div id="contact" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>联系我</h2>
+      Tips:&nbsp;&nbsp;个人利用业务时间接网站软件开发私活,详情入群
+      <a target="_blank" href="http://shang.qq.com/wpa/qunwpa?idkey=c4718f6f42e812c6ca31eb89b565054f669d03ee5d934a749b56e3d585f693d9">
+      <img border="0" src="http://pub.idqqimg.com/wpa/images/group.png" 
+      alt="IT私活-兼职网站软件开发" title="兼职网站软件开发"></a>
+      
+      <hr>
+      <!-- <p>欢迎骚扰,.</p> -->
+    </div>
+    <div class="col-md-8 col-md-offset-2">
+      <div class="col-md-4"> <i class="fa fa-map-marker fa-2x"></i>
+        <p>深圳宝安新安三路建兴楼</p>
+      </div>
+      <div class="col-md-4"> <i class="fa fa-envelope-o fa-2x"></i>
+        <p>bushuaigege@sina.cn</p>
+      </div>
+      <div class="col-md-4"> <i class="fa fa-phone fa-2x"></i>
+        <p> +158 1744 7408</p>
+      </div>
+      <hr>
+      <div class="clearfix"></div>
+    </div>
+    <div class="col-md-8 col-md-offset-2">
+      <h3>给我留言</h3>
+      <form name="sentMessage" id="contactForm" novalidate>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" id="name" class="form-control" placeholder="Name" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+              <p class="help-block text-danger"></p>
+            </div>
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
+          <p class="help-block text-danger"></p>
+        </div>
+        <div id="success"></div>
+        <button type="submit" class="btn btn-default">Send Message</button>
+      </form>
+      <!-- <div class="social">
+        <ul>
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+          <li><a href="#"><i class="fa fa-github"></i></a></li>
+          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+      </div> -->
+    </div>
+  </div>
+</div>
+<!-- <div id="footer">
+  <div class="container text-center">
+    <div class="fnav">
+      <p>Copyright &copy; 2015 Chris James. More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+    </div>
+  </div>
+</div> -->
+
+
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="js/easypiechart.js"></script> 
+<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+<script type="text/javascript" src="js/jquery.isotope.js"></script> 
+<script type="text/javascript" src="js/jquery.counterup.js"></script> 
+<script type="text/javascript" src="js/waypoints.js"></script> 
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="js/contact_me.js"></script> 
+<script type="text/javascript" src="js/owl.carousel.js"></script> 
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
